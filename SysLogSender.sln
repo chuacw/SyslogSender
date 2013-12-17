@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysLogSender", "SysLogSender.csproj", "{B1C99964-3D77-4618-A361-226258AE02DA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderTester", "SenderTester\SenderTester.csproj", "{8DD35599-7144-49D8-9F99-09F708F59B89}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B1C99964-3D77-4618-A361-226258AE02DA}.Debug.ActiveCfg = Debug|.NET
+		{B1C99964-3D77-4618-A361-226258AE02DA}.Debug.Build.0 = Debug|.NET
+		{B1C99964-3D77-4618-A361-226258AE02DA}.Release.ActiveCfg = Release|.NET
+		{B1C99964-3D77-4618-A361-226258AE02DA}.Release.Build.0 = Release|.NET
+		{8DD35599-7144-49D8-9F99-09F708F59B89}.Debug.ActiveCfg = Debug|.NET
+		{8DD35599-7144-49D8-9F99-09F708F59B89}.Debug.Build.0 = Debug|.NET
+		{8DD35599-7144-49D8-9F99-09F708F59B89}.Release.ActiveCfg = Release|.NET
+		{8DD35599-7144-49D8-9F99-09F708F59B89}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
